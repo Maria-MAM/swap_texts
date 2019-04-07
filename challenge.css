@@ -1,0 +1,32 @@
+body {
+    font-size: 20px;
+  }
+nav {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-family: 'Slabo 27px', serif;
+    background-color: #F5F5F5;
+    color: green;
+    font-weight: bold;
+  }
+input {
+    padding:5px;
+    border-radius: 8px;
+    outline: none;
+  }
+#input:hover, #output:hover {
+    border: 2px solid black
+  }
+button {
+    position: absolute;
+    left: 45%;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    outline: none;
+  }
+button:hover {
+    border: 2px solid black
+  }
+  
